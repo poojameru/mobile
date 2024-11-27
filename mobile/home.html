@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Background Image</title>
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+         *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .navbar-nav {
+            margin: auto;
+        }
+
+        .navbar-collapse {
+            justify-content: space-between;
+        }
+        .nav-link {
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 600;
+            border-radius: 10px;
+            padding: 10px 25px;
+        }
+
+        .nav-link:hover {
+            background-color: #a4dcec7a;
+            font-weight: 600;
+            color: white;
+        }
+
+        .image {
+            background-image: url(img/main2.jpg);
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+                overflow: hidden;
+        }
+
+        .main-text {
+            position: relative;
+            left: 20%;
+            top: 10%;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 390px;
+        }
+
+        .btn-c {
+            width: 100%;
+            top: 43%;
+            left: 20%;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+        }
+
+        .btn {
+            border-radius: 30px;
+            padding: 10px;
+            color: white;
+            width: 240px;
+            font-weight: 800;
+            font-size: 1.6rem;
+            background-color: rgb(243, 104, 94);
+        }
+        .btn:hover{
+            border: none;
+            color: white;
+            background-color: rgba(243, 104, 94, 0.719);
+        }
+
+        .main-forgot {
+            margin-top: 10px;
+            color: white;
+            margin-left: 20px;
+            font-weight: 300;
+            font-size: 1.2rem;
+        }
+
+        .footer {
+            bottom: 0px;
+          position: absolute;
+            height: 120px;
+            width: 100%;
+            color: rgb(42, 130, 180);
+            background-color: rgb(14, 65, 95);
+        }
+    </style>
+</head>
+
+<body>
+   
+    <div class="container-fluid image p-0">
+      
+        
+        <nav class="navbar navbar-expand-md navbar-dark  sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand "
+                style="margin-left: 30px;"
+                href="#"><h2>NRN</h2></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    </ul>
+                  
+                </div>
+            </div>
+        </nav> 
+          
+            
+           
+              <div class="main-text">
+                <h1 style="
+             
+               
+                font-weight: 700;
+                font-size: 3.4rem;
+                color: white;
+                
+                ">Let`s Support </h1>
+                <span style="
+                top: 44px;
+               position: absolute;
+                font-weight: 700;
+                font-size: 3.4rem;
+                color: white;
+                ">The Future</span>
+                <span style="
+                    color: rgb(243, 104, 94);
+                    font-size: 3rem;
+                    font-weight: 800;
+                    position: relative;
+                    top: 38px;
+                    
+                    ">New Projects</span>
+
+            </div>
+
+            <div class="btn-c">
+                <button class="btn">Sign in</button>
+                <h3 class="main-forgot">forgot your password?</h3>
+            </div>
+       
+            <div class="footer">
+                    <h4 class="text-center  m-5"
+                    style="font-weight: 400;"
+                    >Don`t have account? <a href="#"
+                    style="color:rgb(42, 130, 180);"
+                    >Register</a></h4>
+            </div>
+       
+        </div>
+
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

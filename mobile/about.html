@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<style>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .header {
+
+        position: relative;
+        height: 450px;
+        background-color: rgb(16, 164, 209);
+    }
+    .navbar-nav {
+            margin: auto;
+        }
+
+        .navbar-collapse {
+            justify-content: space-between;
+        }
+        .nav-item{
+            padding: 0px 10px;
+        }
+        .nav-item:hover{
+            padding: 0px 10px;
+        }
+        .nav-link {
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 600;
+            border-radius: 10px;
+            padding: 10px 25px;
+        }
+
+        .nav-link:hover {
+            background-color: #a4dcec7a;
+            font-weight: 600;
+            color: white;
+        }
+    .bg{
+        background-color: rgb(16, 164, 209);
+    }
+
+    .main-1 {
+        position: relative;
+        width: 300px;
+        top: 15%;
+        left: 10%;
+    }
+
+    .main2 {
+        position: relative;
+    }
+
+    .para-1 {
+        position: relative;
+        color: white;
+        top: 115px;
+        padding: 5px;
+        font-weight: 300;
+        font-size: 1.0rem;
+    }
+
+    .text-c {
+        color: rgb(14, 65, 95);
+    }
+    .text-bg {
+        width: 30%;
+        background-color: rgb(14, 65, 95);
+    }
+
+    .para2 {
+        font-size: 1.2rem;
+        color: rgb(14, 65, 95);
+        font-weight: 300;
+    }
+
+    .bi-chevron-left {
+        color: white;
+        font-size: 2.5rem;
+    }
+
+    .img-refle {
+        width: 220px;
+        position: absolute;
+        bottom: -38px;
+        left: 20%;
+        filter: drop-shadow(2px 2px 10px rgb(83, 87, 83));
+    }
+
+    .img-fluid {
+        width: 100%;
+
+    }
+
+    .progress {
+        border-radius: 20px;
+        background-color: rgb(255, 217, 0);
+        /* Background color of the progress bar */
+    }
+
+    .progress-bar {
+        background-color: rgb(16, 164, 209);
+
+    }
+
+    .footer {
+        height: 50px;
+        width: 100%;
+        background-color: rgb(243, 104, 94);
+    }
+</style>
+
+<body>
+    <div class="container-fluid p-0">
+
+        <nav class="navbar bg navbar-expand-md navbar-dark  sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand "
+                style="margin-left: 30px;"
+                href="#"><h2>NRN</h2></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    </ul>
+                  
+                </div>
+            </div>
+        </nav> 
+
+        <div class="container-fluid p-0">
+            <div class="header">
+                <div class="main-1">
+                  <a href="menu.html">  <i class="bi bi-chevron-left"></i></a>
+                    <div style="position: absolute;
+                            top: 14px;
+                            color: white;
+                            left: 58px;
+                            ">
+                        <h1>About</h1>
+                        <h1 style="margin-top: -10px;">Project</h1>
+                    </div>
+                </div>
+
+                <div class="container">
+
+                    <p class="   col-lg-9 col-md-9  para-1 text-center">Use the SVG sprite
+                        to insert any icon through the
+                        element. Use the icon’s filename
+                        as the fragment i
+                        SVG sprites allow you to reference
+                        SVG sprites allow you to reference
+                        an external file similar to an
+                        element, but with the power of
+                        currentColor for easy theming.</p>
+
+                </div>
+                <div class="img-refle">
+                    <img src="img/play3.png" class=" img-fluid" alt="">
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container mt-5 main2 ">
+
+            <h2 class="text-start text-c">Project Name</h2>
+
+            <p class="para2">
+                Use the SVG sprite to insert any icon through
+                the element. Use the icon’s filename as the fragment i SVG sprites allow you to reference SVG sprites
+                allow you to reference an external file similar to an element, but
+                Use the SVG sprite to insert any icon through the element. Use the icon’s filename as the fragment i SVG
+                sprites allow you to reference SVG sprites allow you to reference an external file similar to an
+                element,
+                but with the power of currentColor for easy theming.
+                with the power of currentColor for easy theming.
+            </p>
+
+            <div class=" mt-5">
+                <h2  style="color: rgb(39, 196, 207); ">69160/100,000</h2>
+                <div class="progress" style="height: 30px;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <h2 class="text-c mb-4" > Support</h2>
+
+                   <!-- content -1 -->
+                <div class="col-sm-4 col-6 mb-4 ">
+                    <h5 class="text-center 
+                     rounded-pill text-white text-bg"
+                     style="width: 130px;
+                     padding: 12px;
+                     "
+                     >$10</h5>
+                </div>
+
+                <!-- content -2 -->
+                <div class="col-sm-4 col-6 mb-4 ">
+                    <h5 class="text-center 
+                     rounded-pill text-white text-bg"
+                     style="width: 130px;
+                     padding: 12px;
+                     "
+                     >$30</h5>
+                </div>
+
+                <!-- content -3 -->
+                <div class="col-sm-4 col-6 mb-4 ">
+                    <h5 class="text-center 
+                     rounded-pill text-white text-bg"
+                     style="width: 130px;
+                     padding: 12px;
+                     "
+                     >$50</h5>
+                </div>
+
+                <!-- content - 4 -->
+                <div class="col-sm-4 col-6 mb-4 ">
+                    <h5 class="text-center 
+                     rounded-pill text-white text-bg"
+                     style="width: 130px;
+                     padding: 12px;
+                     "
+                     >$100</h5>
+                </div>
+
+                <!-- content - 5 -->
+                <div class="col-sm-4 col-6 mb-4 ">
+                    <h5 class="text-center 
+                     rounded-pill text-white text-bg"
+                     style="width: 130px;
+                     padding: 12px;
+                     "
+                     >$200</h5>
+                </div>
+
+                <!-- content - 6 -->
+                <div class="col-sm-4 col-6 mb-4 ">
+                    <h5 class="text-center 
+                     rounded-pill text-white text-bg"
+                     style="width: 130px;
+                     padding: 12px;
+                     "
+                     >$500</h5>
+                </div>
+
+                
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="container-fluid p-0">
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
